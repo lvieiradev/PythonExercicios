@@ -1,0 +1,8 @@
+frase = input('Escreva uma frase:')
+frase = frase.upper()
+frasea = frase.count('A')
+primeiroa = frase.find('A')
+ultimoa = frase.rfind('A')
+print('A letras (A) aparece {} vezes na frase'.format(frasea))
+print('A primeira letra (A) esta na posicao: {}'.format(primeiroa))
+print('A ultima letra (A) esta na posicao: {}'.format(ultimoa))
